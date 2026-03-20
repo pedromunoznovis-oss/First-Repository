@@ -26,6 +26,9 @@ public class Date {
    *
    * @return The day of the month (1-31).
    */
+  public void methodAddedByOwner(){
+    System.out.println("Method added by the owner");;
+  }
   public int getDay() {
     return day;
   }
@@ -60,6 +63,7 @@ public class Date {
     this.day = day;
     this.month = month;
     this.year = year;
+
   }
 
 
